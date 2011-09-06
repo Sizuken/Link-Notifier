@@ -1,7 +1,7 @@
-|| Link Notifier
+﻿|| Link Notifier
 
-�����N�̖����ɃA�C�R����\�����邱�ƂŁA�����N�̃^�C�v��t�@�C����ʂ����o�����܂��B
-�Ⴆ��PDF�����N�̖�����PDF�A�C�R����\�����邱�ƂŁA�J���ău���E�U���t���[�Y���鎖�Ԃ�h�����Ƃ��ł���ł��傤�B
+リンクの末尾にアイコンを表示することで、リンクのタイプやファイル種別を視覚化します。
+例えばPDFリンクの末尾にPDFアイコンを表示することで、開いてブラウザがフリーズする事態を防ぐことができるでしょう。
 
-���̃t�B���^�̓��X�g���g�p���܂��B
-���X�g���́uLinkNotifier�v�ł��B
+このフィルタはリストを使用します。
+リスト名は「LinkNotifier」です。

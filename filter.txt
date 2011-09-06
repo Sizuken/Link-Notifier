@@ -1,4 +1,4 @@
-
+﻿
 [Blocklists]
 List.LinkNotifier = "..\Lists\LinkNotifier.txt"
 
