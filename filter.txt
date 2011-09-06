@@ -3,15 +3,15 @@
 List.LinkNotifier = "..\Lists\LinkNotifier.txt"
 
 [Patterns]
-Name = "|| Link Notifier beta.20081214"
-Active = FALSE
+Name = "|| LINK Notifier beta.20110906"
+Active = TRUE
 Multi = TRUE
 URL = "$TYPE(htm)"
-Bounds = "$NEST(<a\s,/a>)"
-Limit = 100
-Match = "([^>]++\shref=$AV($LST(LinkNotifier))[^>]+)\#\#"
-Replace = "\# style=""
+Bounds = "$NEST(<a\s,>)"
+Limit = 200
+Match = "([^>]++\shref=$AV($LST(LinkNotifier)|http://$LST(AdList)*$SET(0=slash.png))[^>]+)\#\#"
+Replace = "\# style='"
           "padding-right: 18px;"
           "margin-right: 1px;"
           "background: url(http://Local.ptron/\0) 100% 60% no-repeat"
-          ""\#"
+          "'\#"
